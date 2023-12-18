@@ -65,6 +65,5 @@ nika
 answer_structure = [*
 	nika
 	<- concept_intelligent_study_system;
-	<- concept_expert_system;
-	=> nrel_knowledge_base: ui_start_sc_element;;
+	<- concept_expert_system;;
 *];;
