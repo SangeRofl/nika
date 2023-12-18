@@ -1,0 +1,30 @@
+concept_alphabet
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [алфавит]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [В алфавите отдельные знаки — буквы обозначают фонемы языка, хотя однозначное соответствие звука букве наблюдают редко и имеет обыкновение утрачиваться в процессе развития устного языка.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (алфавит)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [алфавит - форма письменности, основанная на стандартном наборе знаков (букв).]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+      concept_letter;
+			concept_part_of_speech
+		};;
+	*);;

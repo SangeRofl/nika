@@ -1,0 +1,65 @@
+concept_natural_language
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [естественный язык]
+    (* <- lang_ru;; *);
+<= nrel_inclusion:
+    concept_language
+    (* => nrel_main_idtf:
+        [язык]
+        (* <- lang_ru;; *);;
+    *);
+=> nrel_note:
+    [Словарь и грамматические правила естественного языка определяются практикой применения и не всегда бывают формально зафиксированы.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (естественный язык)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [естественный язык - язык, используемый для общения людей и не созданный целенаправленно.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+			concept_language
+		};;
+	*);;
+
+concept_natural_language
+<= nrel_subdividing: ...
+	(*
+        => nrel_main_idtf: [Разбиение по типу морфологической структуры](* <- lang_ru;; *);;
+		-> concept_inflectional_language;;
+        -> concept_agglutinative_language;;
+        -> concept_isolating_language;;
+        -> concpet_incorporating_language;;
+	*);
+<= nrel_subdividing: ...
+	(*
+        => nrel_main_idtf: [Разбиение по способу соединения морфем](* <- lang_ru;; *);;
+		-> concept_analytical_language;;
+        -> concept_synthetic_language;;
+	*);
+<= nrel_subdividing: ...
+	(*
+        => nrel_main_idtf: [Разбиение по типу взаимоотношения между глаголом и существительным](* <- lang_ru;; *);;
+		-> concept_active_language;;
+        -> concept_nominative_language;;
+        -> concept_ergative_language;;
+	*);;
+
+concept_country
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [страна]
+    (* <- lang_ru;; *);;

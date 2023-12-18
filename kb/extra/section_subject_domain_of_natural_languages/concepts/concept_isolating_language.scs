@@ -1,0 +1,29 @@
+concept_isolating_language
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [изолюрующий язык]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    []
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (изолюрующий язык)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [изолюрующий язык - язык с низким соотношением морфем к слову.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+			concept_language
+		};;
+	*);;

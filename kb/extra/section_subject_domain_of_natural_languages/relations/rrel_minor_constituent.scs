@@ -1,0 +1,54 @@
+rrel_minor_constituent
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [второстепенный член предложения']
+    (* <- lang_ru;; *);
+=> nrel_first_domain: concept_sentence;
+=> nrel_second_domain: concept_word;
+=> nrel_definitional_domain:
+    ...
+    (*
+    	<= nrel_combination: 
+        {
+        	concept_sentence;
+   	 	    concept_word
+    	};;
+   *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+   	    [Опр. (второстепенный член предложения')]
+   	    (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	        -> rrel_example:
+   		    [второстепенный член предложения' - бинарное 
+               ориентированное отношение, связывающее 
+               предложение и часть этого предложения, которая выполняет второстепенную роль.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+        <= nrel_using_constants: 
+        {
+   	 	    concept_sentence;
+   	 	    concept_word
+   	    };;
+    *);;
+
+
+rrel_minor_constituent
+<= nrel_subdividing: ...
+	(*
+		-> rrel_object_constituent;;
+        -> rrel_advierbial_constituent;;
+        -> rrel_attribute_constituent;;
+        -> rrel_prepositional_object_constituent;;
+	*);;

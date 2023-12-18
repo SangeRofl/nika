@@ -1,0 +1,29 @@
+concept_letter
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [буква]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Совокупность всех букв образует алфавит.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (буква)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [буква - графический символ фонетической письменности.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+			concept_language
+		};;
+	*);;

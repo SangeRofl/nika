@@ -1,0 +1,34 @@
+concept_postposition_part_of_speech
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [послелоги]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [От предлога отличается положением относительно слова, к которому относится: если предлоги стоят перед этим словом, то послелоги ставятся после него.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (послелоги)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [послелоги - служебная часть речи, выражающая синтаксические отношения между именем существительным, местоимением, числительным и словами других частей речи.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+            concept_part_of_speech;
+            concept_function_part_of_speech;
+            concept_noun_part_of_speech;
+            concept_pronoun_part_of_speech;
+            concept_numeral_part_of_speech;
+			concept_language
+		};;
+	*);;

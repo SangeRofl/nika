@@ -1,0 +1,29 @@
+concept_numeral_part_of_speech
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [имя числительное]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Отвечает на вопросы: сколько? который?]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (имя числительное)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [имя числительное - самостоятельная часть речи, которая обозначает число, количество и порядок предметов.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+            concept_independent_part_of_speech
+		};;
+	*);;

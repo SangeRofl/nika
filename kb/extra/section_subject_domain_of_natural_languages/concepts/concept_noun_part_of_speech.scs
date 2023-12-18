@@ -1,0 +1,33 @@
+concept_noun_part_of_speech
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [имя существительное]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    []
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (имя существительное)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [имя существительное - самостоятельная часть речи, принадлежащая к категории имени и классу полнозначных лексем, может выступать в предложении в функциях подлежащего, дополнения и именной части сказуемого.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+            concept_independent_part_of_speech;
+            rrel_object_constituent;
+            rrel_subject_constituent;
+            rrel_adverbial_constituent;
+			concept_language
+		};;
+	*);;

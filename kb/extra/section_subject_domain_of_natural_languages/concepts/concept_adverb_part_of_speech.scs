@@ -1,0 +1,29 @@
+concept_adverb_part_of_speech
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [наречие]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Наречия — неизменяемые слова: они не склоняются и не спрягаются, не имеют окончаний, не изменяются по родам и числам]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (наречие)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [наречие - неизменяемая самостоятельная часть речи, обозначающая признак действия, качества, другого признака или предмета.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+			concept_part_of_speech
+		};;
+	*);;

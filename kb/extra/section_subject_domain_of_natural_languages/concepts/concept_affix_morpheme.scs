@@ -1,0 +1,29 @@
+concept_affix_morpheme
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [аффикс]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Аффикс является связанной морфемой (морфема, которая не совпадает с основой хотя бы в одной словоформе неслужебного слова, например: kindness, unlikely).]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (аффикс)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [аффикс - морфема, которая присоединяется к корню и служит для образования слов.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+			concept_morpheme
+		};;
+	*);;

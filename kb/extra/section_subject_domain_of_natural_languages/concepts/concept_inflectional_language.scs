@@ -1,0 +1,30 @@
+concept_inflectional_language
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [флективный язык]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Флективный язык противоположен агглютинативному, в котором каждый формант несёт только одно значение.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (флективный язык)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [флективный язык - языка синтетического типа, в котором доминирует словоизменение при помощи флексий — формантов, сочетающих сразу несколько значений.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+            concept_synthetic_language;
+			concept_language
+		};;
+	*);;

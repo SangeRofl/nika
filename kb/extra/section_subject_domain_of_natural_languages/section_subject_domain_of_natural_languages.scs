@@ -1,0 +1,143 @@
+section_subject_domain_of_natural_languages
+=> nrel_main_idtf:
+    [Раздел. Предметная область естественных языков]
+    (* <- lang_ru;; *);
+    [Section. Subject domain of natural languages]
+    (* <- lang_en;; *);
+<-atomic_section;;
+
+section_subject_domain_of_natural_languages = [*
+subject_domain_of_natural_languages
+<- sc_node_struct;
+=> nrel_main_idtf:
+    [Предметная область естественных языков]
+    (* <- lang_ru;; *);
+    [Subject domain of natural languages]
+    (* <- lang_en;; *);
+<- subject_domain;
+-> rrel_maximum_studied_object_class:
+    concept_natural_language;
+
+    concept_language_family;
+    concept_language_group;
+
+    concept_part_of_speech;
+
+    concept_word;
+    concept_sentence;
+    concept_letter;
+    concept_alphabet;
+    concept_morpheme;
+-> rrel_not_maximum_studied_object_class:
+    concept_inflectional_language;
+    concept_agglutinative_language;
+    concept_isolating_language;
+    concpet_incorporating_language;
+
+    concept_active_language;
+    concept_nominative_language;
+    concept_ergative_language;
+
+    concept_analytical_language;
+    concept_synthetic_language;
+
+    concept_independent_part_of_speech;
+    concept_function_part_of_speech;
+    concept_noun_part_of_speech;
+    concept_adjective_part_of_speech;
+    concept_adverb_part_of_speech;
+    concept_verb_part_of_speech;
+    concept_numeral_part_of_speech;
+    concept_pronoun_part_of_speech;
+    concept_preposition_part_of_speech;
+    concept_postposition_part_of_speech;
+    concept_particle_part_of_speech;
+    concept_article_part_of_speech;
+    concept_conjunction_part_of_speech;
+
+    concept_root_morpheme;
+    concept_affix_morpheme;
+
+
+
+    concept_narrative_sentence;
+    concept_interrogative_sentence;
+    concept_imperative_sentence;
+    concept_exclamative_sentence;
+
+-> rrel_explored_relation:
+    rrel_adverbial_constituent;
+    rrel_constituent;
+    rrel_minor_constituent;
+    rrel_main_constituent;
+    rrel_subject_constituent;
+    rrel_predicate_constituent;
+    rrel_object_constituent;
+    rrel_attribute_constituent;
+    rrel_adverbial_constituent;
+    rrel_prepositional_object_constituent;
+    nrel_coordinated_elements;
+    nrel_uses_alphabet;
+    nrel_official_language;;
+
+*];;
+
+section_subject_domain_of_natural_languages
+-> rrel_key_sc_element:
+    concept_natural_language;
+
+    concept_language_family;
+    concept_language_group;
+
+    conecpt_part_of_speech;
+
+    concept_word;
+    concept_sentence;
+    concept_letter;
+    concept_alphabet;
+    concept_morpheme;
+    
+    concept_inflectional_language;
+    concept_agglutinative_language;
+    concept_isolating_language;
+    concpet_incorporating_language;
+
+    concept_active_language;
+    concept_nominative_language;
+    concept_ergative_language;
+
+    concept_analytical_language;
+    concept_synthetic_language;
+
+    concept_independent_part_of_speech;
+    concept_function_part_of_speech;
+    concept_noun_part_of_speech;
+    concept_adjective_part_of_speech;
+    concept_adverb_part_of_speech;
+    concept_verb_part_of_speech;
+    concept_numeral_part_of_speech;
+    concept_pronoun_part_of_speech;
+    concept_preposition_part_of_speech;
+    concept_postposition_part_of_speech;
+    concept_article_part_of_speech;
+    concept_conjunction_part_of_speech;
+
+    concept_root_morpheme;
+    concept_affix_morpheme;
+
+    concept_narrative_sentence;
+    concept_interrogative_sentence;
+    concept_imperative_sentence;
+    concept_exclamative_sentence;
+    rrel_adverbial_constituent;
+    rrel_constituent;
+    rrel_minor_constituent;
+    rrel_main_constituent;
+    rrel_subject_constituent;
+    rrel_predicate_constituent;
+    rrel_object_constituent;
+    rrel_attribute_constituent;
+    rrel_adverbial_constituent;
+    nrel_coordinated_elements;
+    nrel_uses_alphabet;
+    nrel_official_language;;

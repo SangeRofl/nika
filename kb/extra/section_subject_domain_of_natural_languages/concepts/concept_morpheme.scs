@@ -1,0 +1,36 @@
+concept_morpheme
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [морфема]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Деление морфем на части приводит только к выделению незначимых элементов — фонем.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (морфема)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [морфема - наименьшая единица языка, с лексическим и грамматическим значением.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+			concept_language
+		};;
+	*);;
+
+concept_morpheme
+<= nrel_subdividing: ...
+	(*
+		-> concept_root_morpheme;;
+        -> concept_affix_morpheme;;
+	*);;

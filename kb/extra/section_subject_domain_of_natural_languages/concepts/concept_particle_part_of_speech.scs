@@ -1,0 +1,32 @@
+concept_particle_part_of_speech
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [частица]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Значением частицы как отдельного слова является то отношение, которое выражается ею в предложении.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (частица)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [частица - служебная часть речи, которая вносит различные оттенки значения, эмоциональные оттенки в предложении или служит для образования форм слова.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+            concept_function_part_of_speech;
+            concept_word;
+            concept_sentence;
+			concept_language
+		};;
+	*);;

@@ -1,0 +1,49 @@
+rrel_constituent
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [член предложения']
+    (* <- lang_ru;; *);
+=> nrel_first_domain: concept_sentence;
+=> nrel_second_domain: concept_word;
+=> nrel_definitional_domain:
+    ...
+    (*
+    	<= nrel_combination: 
+        {
+        	concept_sentence;
+   	 	    concept_word
+    	};;
+   *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+   	    [Опр. (член предложения')]
+   	    (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	        -> rrel_example:
+   		    [член предложения' - бинарное ориентированное отношение, связывающее предложение и часть этого предложения, выполняющую какую либо роль.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+        <= nrel_using_constants: 
+        {
+   	 	    concept_sentence;
+   	 	    concept_word
+   	    };;
+    *);;
+
+rrel_constituent
+<= nrel_subdividing: ...
+	(*
+		-> rrel_main_constituent;;
+        -> rrel_minor_constituent;;
+	*);;

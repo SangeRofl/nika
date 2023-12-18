@@ -1,0 +1,43 @@
+nrel_coordinated_elements
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- asymmetric_relation;
+<- antitransitive_relation;
+=> nrel_main_idtf:
+    [однородные члены*]
+    (* <- lang_ru;; *);
+=> nrel_first_domain: concept_word;
+=> nrel_second_domain: concept_word;
+=> nrel_definitional_domain:
+    ...
+    (*
+    	<= nrel_combination: 
+        {
+        	concept_word
+    	};;
+   *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        => nrel_main_idtf:
+   	    [Опр. (однородные члены*)]
+   	    (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+   	    ...
+   	    (*
+   	        -> rrel_example:
+   		    [однородные члены* - бинарное 
+               ориентированное отношение, связывающее несколько
+               частей одного предложения, отвечающих на один и тот же вопрос и относящихся к одному и тому же слову.]
+   		    (* <- lang_ru;; *);;
+   	    *);;
+        <= nrel_using_constants: 
+        {
+   	 	    concept_natural_language;
+   	 	    concept_alphabet
+   	    };;
+    *);;

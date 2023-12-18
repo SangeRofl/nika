@@ -1,0 +1,32 @@
+concept_conjunction_part_of_speech
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [союз]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Не склоняется и не спрягается, и не является членом предложения.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (союз)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [союз -  служебная часть речи, с помощью которой связывают между собой простые предложения в составе сложного или однородные члены предложения.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+            concept_function_part_of_speech;
+            concept_sentence;
+            nrel_coordinated_elements;
+			concept_language
+		};;
+	*);;

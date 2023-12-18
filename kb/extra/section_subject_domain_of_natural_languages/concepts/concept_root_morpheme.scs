@@ -1,0 +1,30 @@
+concept_root_morpheme
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [корень]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [В русском языке корень имеется во всех самостоятельных частях речи и отсутствует во многих служебных частях речи]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (корень)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [корень - морфема, несущая лексическое значение слова (или основную часть этого значения).]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+            concept_morpheme;
+			concept_language
+		};;
+	*);;

@@ -1,0 +1,29 @@
+concept_adjective_part_of_speech
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [имя прилагательное]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [В предложении прилагательное чаще всего бывает определением, но может быть и сказуемым.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (имя прилагательное)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [имя прилагательное - самостоятельная часть речи, обозначающая непроцессуальный признак предмета и отвечающая на вопросы «какой?», «какая?», «какое?», «какие?», «чей?» и так далее.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+			concept_part_of_speech
+		};;
+	*);;

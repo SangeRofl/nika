@@ -1,0 +1,35 @@
+concept_preposition_part_of_speech
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [предлоги]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    []
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (предлоги)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [предлоги - служебная часть речи, обозначающая отношение между объектом и субъектом, выражающая синтаксическую зависимость имен существительных, местоимений, числительных от других слов в словосочетаниях и предложениях.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{   
+            concept_part_of_speech;
+            concept_function_part_of_speech;
+            concept_noun_part_of_speech;
+            concept_pronoun_part_of_speech;
+            concept_numeral_part_of_speech;
+            concept_sentence;
+			concept_language
+		};;
+	*);;

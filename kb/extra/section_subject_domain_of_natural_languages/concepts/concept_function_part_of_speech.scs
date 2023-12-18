@@ -1,0 +1,31 @@
+concept_function_part_of_speech
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [служебная часть речи]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Эти части речи называются служебными потому, что они обслуживают самостоятельные слова.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (служебная часть речи)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [служебная часть речи - часть речи, которая не называет ни предметов, ни действий, не является членами предложения и не изменяется.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+            concept_part_of_speech;
+            rrel_constituent;
+			concept_language
+		};;
+	*);;

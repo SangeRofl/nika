@@ -1,0 +1,31 @@
+concept_independent_part_of_speech
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [самостоятельная часть речи]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Самостоятельные части речи называют предметы, признаки предметов, действия, количества или указывают на них.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (самостоятельная часть речи)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [самостоятельная часть речи - это часть речи, которая является членом предложения и имеет лексическое значение.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+            rrel_constituent;
+            concept_part_of_speech;
+			concept_language
+		};;
+	*);;

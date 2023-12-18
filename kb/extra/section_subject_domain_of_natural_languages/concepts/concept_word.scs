@@ -1,0 +1,29 @@
+concept_word
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [слово]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Структура слова изучается в рамках раздела лингвистики, называемого морфологией.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (слово)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [слово - наименьшая единица языка, служащая для именования предметов, качеств, характеристик, взаимодействий, а также для служебных целей.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+			concept_language
+		};;
+	*);;

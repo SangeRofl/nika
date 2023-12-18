@@ -1,0 +1,30 @@
+concept_pronoun_part_of_speech
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [местоимение]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    []
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (местоимение)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [местоимение - самостоятельная часть речи, объединяющая слова, которые не содержат конкретного лексического значения, не называют предметы, признаки или количество, а лишь указывают на них.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+            concept_independent_part_of_speech;
+			concept_language
+		};;
+	*);;

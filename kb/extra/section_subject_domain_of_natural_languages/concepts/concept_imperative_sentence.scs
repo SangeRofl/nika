@@ -1,0 +1,29 @@
+concept_imperative_sentence
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [побудительное предложение]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [В конце побудительного предложения можно поставить точку или восклицательный знак.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (побудительное предложение)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [побудительное предложение - это предложения, побуждающие к действию.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+            concept_sentence
+		};;
+	*);;

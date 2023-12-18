@@ -1,0 +1,47 @@
+concept_part_of_speech
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+    [часть речи]
+    (* <- lang_ru;; *);
+=> nrel_note:
+    [Все языки имеют такие категории, но состав частей речи и деление на них могут отличаться в разных языках.]
+    (* <- lang_ru;;*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (часть речи)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [часть речи - традиционное название для основных категорий, на которые делятся лексемы языка.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+			concept_language
+		};;
+	*);;
+
+concept_part_of_speech
+<= nrel_subdividing: ...
+	(*
+      // => nrel_main_idtf: [Разбиение](* <- lang_ru;; *);;
+		  -> concept_independent_part_of_speech;;
+      -> concept_function_part_of_speech;;
+      -> concept_noun_part_of_speech;;
+      -> concept_adjective_part_of_speech;;
+      -> concept_adverb_part_of_speech;;
+      -> concept_verb_part_of_speech;;
+      -> concept_numeral_part_of_speech;;
+      -> concept_pronoun_part_of_speech;;
+      -> concept_preposition_part_of_speech;;
+      -> concept_postposition_part_of_speech;;
+      -> concept_article_part_of_speech;;
+      -> concept_conjunction_part_of_speech;;
+	*);;
