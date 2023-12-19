@@ -1,5 +1,6 @@
 concept_affix_morpheme
 <- sc_node_class;
+<- concept_wit_entity;
 <- class;
 => nrel_main_idtf:
     [аффикс]

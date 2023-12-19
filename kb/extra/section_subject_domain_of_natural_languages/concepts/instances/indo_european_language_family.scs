@@ -1,4 +1,5 @@
 indo_european_language_family
+<- concept_wit_entity;
 <- concept_language_family;
 => nrel_main_idtf:
 	  [индоевропейская языковая семья]

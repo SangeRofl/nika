@@ -1,6 +1,7 @@
 concept_root_morpheme
 <- sc_node_class;
 <- class;
+<- concept_wit_entity;
 => nrel_main_idtf:
     [корень]
     (* <- lang_ru;; *);

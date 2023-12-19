@@ -1,4 +1,5 @@
 east_slavic_language_group
+<- concept_wit_entity;
 <- concept_language_group;
 => nrel_main_idtf:
 	   [восточнославянская языковая группа]

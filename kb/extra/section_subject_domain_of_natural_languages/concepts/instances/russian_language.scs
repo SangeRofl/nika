@@ -4,6 +4,7 @@ russian_language
 <- concept_nominative_language;
 <- indo_european_language_family;
 <- east_slavic_language_group;
+<- concept_wit_entity;
 => nrel_uses_alphabet:
   russian_alphabet;
 => nrel_main_idtf:

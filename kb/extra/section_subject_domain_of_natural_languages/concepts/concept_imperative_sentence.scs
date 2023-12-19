@@ -1,6 +1,7 @@
 concept_imperative_sentence
 <- sc_node_class;
 <- class;
+<- concept_wit_entity;
 => nrel_main_idtf:
     [побудительное предложение]
     (* <- lang_ru;; *);

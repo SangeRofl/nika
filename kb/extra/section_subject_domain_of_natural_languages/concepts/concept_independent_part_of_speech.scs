@@ -1,6 +1,7 @@
 concept_independent_part_of_speech
 <- sc_node_class;
 <- class;
+<- concept_wit_entity;
 => nrel_main_idtf:
     [самостоятельная часть речи]
     (* <- lang_ru;; *);

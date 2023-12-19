@@ -1,6 +1,7 @@
 concept_language_family
 <- sc_node_class;
 <- class;
+<- concept_wit_entity;
 => nrel_main_idtf:
     [языковая семья]
     (* <- lang_ru;; *);

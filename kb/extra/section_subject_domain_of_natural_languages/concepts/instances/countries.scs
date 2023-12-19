@@ -1,14 +1,17 @@
 republic_of_belarus_country
+<- concept_wit_entity;
 => nrel_main_idtf:
   [Беларусь]
    (* <- lang_ru;; *);;
 
 russian_federation_country
+<- concept_wit_entity;
 => nrel_main_idtf:
   [Россиская федерация]
    (* <- lang_ru;; *);;
 
 united_states_of_america_country
+<- concept_wit_entity;
 => nrel_main_idtf:
   [Соединенные Штаты Америки]
    (* <- lang_ru;; *);
@@ -17,6 +20,7 @@ united_states_of_america_country
    (* <- lang_ru;; *);;
 
 kazakhstan_country
+<- concept_wit_entity;
 => nrel_main_idtf:
   [Казахстан]
    (* <- lang_ru;; *);;
