@@ -1,6 +1,8 @@
 russian_alphabet
 <- concept_alphabet;
-
+=> nrel_main_idtf:
+	   [русский алфавит]
+   (* <- lang_ru;; *);
 <- rrel_key_sc_element:
 	...
 	(*
@@ -23,6 +25,9 @@ russian_alphabet
 			concept_language
 		};;
 	*);
+=> nrel_official_language:
+    republic_of_belarus_country;
+    russian_federation_country;
 
 -> [а];
 -> [б];

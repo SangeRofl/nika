@@ -1,0 +1,27 @@
+concept_phrase_about_off_lang
+<- sc_node_class;
+=> nrel_main_idtf:
+	[фраза про официальный язык]
+	(* <- lang_ru;; *);
+	[phrase about official language]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (фраза про официальный язык)]
+		(* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Фраза про доход - фраза, содержащая информацию об официальном языке государства.]
+			(* <- lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_phrase
+		};;
+	*);
+-> concept_message_about_off_lang;;

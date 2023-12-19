@@ -1,0 +1,27 @@
+concept_phrase_about_family
+<- sc_node_class;
+=> nrel_main_idtf:
+	[фраза про языковую семью]
+	(* <- lang_ru;; *);
+	[phrase about language family]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (фраза про языковую семью)]
+		(* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Фраза про страну - фраза, содержащая информацию о языковой семье языка.]
+			(* <- lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_phrase
+		};;
+	*);
+-> concept_message_about_family;;

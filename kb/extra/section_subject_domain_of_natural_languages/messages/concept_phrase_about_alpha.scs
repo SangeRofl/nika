@@ -1,0 +1,27 @@
+concept_phrase_about_alpha
+<- sc_node_class;
+=> nrel_main_idtf:
+	[фраза про алфавит]
+	(* <- lang_ru;; *);
+	[phrase about alphabet]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (фраза про алфавит)]
+		(* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Фраза про алфавит - фраза, содержащая информацию об алфавите языка.]
+			(* <- lang_ru;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_phrase
+		};;
+	*);
+-> concept_message_about_alpha;;
