@@ -1,0 +1,29 @@
+indo_european_language_family
+<- concept_language_family;
+=> nrel_main_idtf:
+	  [индоевропейская языковая семья]
+    (* <- lang_ru;; *);
+=>  nrel_inclusion:
+    east_slavic_language_group;
+<-  rrel_key_sc_element:
+	...
+	(*
+        => nrel_main_idtf:
+        [Опр. (индоевропейская языковая семья)]
+        (* <- lang_ru;; *);;
+        <- definition;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    [индоевропейская языковая семья - самая распространённая в мире языковая семья.]
+                    (* <- lang_ru;; *);;
+            *);;
+        <= nrel_using_constants:
+		{
+      concept_language_family;
+      concept_language_group;
+
+			concept_language
+		};;
+	*);;

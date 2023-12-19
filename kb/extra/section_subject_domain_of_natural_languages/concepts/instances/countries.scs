@@ -1,0 +1,22 @@
+republic_of_belarus_country
+=> nrel_main_idtf:
+  [Беларусь]
+   (* <- lang_ru;; *);;
+
+russian_federation_country
+=> nrel_main_idtf:
+  [Россиская федерация]
+   (* <- lang_ru;; *);;
+
+united_states_of_america_country
+=> nrel_main_idtf:
+  [Соединенные Штаты Америки]
+   (* <- lang_ru;; *);
+=> nrel_idtf:
+  [США]
+   (* <- lang_ru;; *);;
+
+kazakhstan_country
+=> nrel_main_idtf:
+  [Казахстан]
+   (* <- lang_ru;; *);;
